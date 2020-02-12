@@ -1,0 +1,5 @@
+import folium
+
+seoul_map = folium.Map(location=[37.55, 126.98], zoom_start=12)
+
+# seoul_map.save('./output/seoul.html')
